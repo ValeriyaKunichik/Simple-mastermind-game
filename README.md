@@ -15,7 +15,7 @@ You must read the player's input from the standard input.
 Your program will also receive the following parameters:
 -c [CODE]: specifies the secret code. If no code is specified, a random code will be generated.
 -t [ATTEMPTS]: specifies the number of attempts; by default, the player has 10 attempts.
-
+``
 Example 00
 
 PROMPT>./my_mastermind -c "0123"
