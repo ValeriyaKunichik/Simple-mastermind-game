@@ -15,24 +15,4 @@ You must read the player's input from the standard input.
 Your program will also receive the following parameters:
 -c [CODE]: specifies the secret code. If no code is specified, a random code will be generated.
 -t [ATTEMPTS]: specifies the number of attempts; by default, the player has 10 attempts.
-``
-Example 00
 
-PROMPT>./my_mastermind -c "0123"
-Will you find the secret code?
----
-Round 0
->1456
-Well placed pieces: 0
-Misplaced pieces: 1
----
-Round 1
->tata
-Wrong input!
->4132
-Well placed pieces: 1
-Misplaced pieces: 2
----
-Round 2
->0123
-Congratz! You did it!
